@@ -1,2 +1,1 @@
-
-    numbers = file.readlines()
+print("")

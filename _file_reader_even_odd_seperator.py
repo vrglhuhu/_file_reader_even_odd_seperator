@@ -40,6 +40,14 @@ with open("even_file.txt", "w") as even_file, open("odd_file.txt", "w") as odd_f
     else:
         odd_file.write(str(number) + "\n")
 
+# Printing the numbers of even and odd
+with open("even_file.txt", "r") as even_file, open("odd_file.txt", "r") as odd_file:
+    even_count = len(even_file.readlines())
+    odd_count = len(odd_file.readlines())
+
+print(f"\033[32mHi", name_user + "! This program found {even_count} even numbers and {odd_count} odd numbers!\033[0m")
+print("")
+
 # State that the output is in the txt files
 print("\033[32mPlease have time to visit the even_file.txt, if you want to look on the even numbers.\033[0m")
 print("")

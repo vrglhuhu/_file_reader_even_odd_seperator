@@ -31,3 +31,10 @@ with open("even_file.txt", "w") as even_file, open("odd_file.txt", "w") as odd_f
 # Print "Completed!"
 print("Completed!")
 # Create Footer
+print("\033[40m\033[33mThank you for your time\033[0m")
+print("")
+print("")
+goodbye = pyfiglet.figlet_format("Visit me again", font = "digital" )
+print (goodbye)
+print("")
+

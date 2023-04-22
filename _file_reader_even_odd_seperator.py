@@ -29,4 +29,5 @@ with open("even_file.txt", "w") as even_file, open("odd_file.txt", "w") as odd_f
     else:
         odd_file.write(str(number) + "\n")
 # Print "Completed!"
+print("Completed!")
 # Create Footer

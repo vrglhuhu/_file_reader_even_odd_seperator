@@ -18,10 +18,9 @@ print("")
 with open("numbers.txt", "r") as file:
     numbers = file.readlines()
 # Create two empty text files; even.txt and odd.txt
-even_file = open("even_file.txt", "w")
-odd_file = open("odd_file.txt", "w")
+with open("even_file.txt", "w") as even_file, open("odd_file.txt", "w") as odd_file: 
 # FOR each number in numbers.txt
-for number in numbers:
+ for number in numbers:
     number = int(number.strip())
    # IF the number is even, WRITE the number to even.txt
     if number % 2 == 0:
@@ -29,6 +28,5 @@ for number in numbers:
    # ELSE, WRITE the number to odd.txt
     else:
         odd_file.write(str(number) + "\n")
-# Close both text files
 # Print "Completed!"
 # Create Footer

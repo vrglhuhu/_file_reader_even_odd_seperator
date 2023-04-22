@@ -14,8 +14,9 @@ print("")
 print("=" * 80)
 print("\033[33mHi, I am Chean Bernard V. Vergel a first year college student at Polytechnic University of the Philippines.\033[0m")
 print("")
-
 # Open the numbers.txt and read the file
+with open("numbers.txt", "r") as file:
+    numbers = file.readlines()
 # Create two empty text files; even.txt and odd.txt
 # FOR each number in numbers.txt
 # Close both text files

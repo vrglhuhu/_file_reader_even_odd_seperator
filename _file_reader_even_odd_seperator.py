@@ -27,6 +27,8 @@ for number in numbers:
     if number % 2 == 0:
         even_file.write(str(number) + "\n")
    # ELSE, WRITE the number to odd.txt
+    else:
+        odd_file.write(str(number) + "\n")
 # Close both text files
 # Print "Completed!"
 # Create Footer

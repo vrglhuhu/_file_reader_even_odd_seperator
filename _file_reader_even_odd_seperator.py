@@ -21,6 +21,8 @@ with open("numbers.txt", "r") as file:
 even_file = open("even_file.txt", "w")
 odd_file = open("odd_file.txt", "w")
 # FOR each number in numbers.txt
+for number in numbers:
+    number = int(number.strip())
    # IF the number is even, WRITE the number to even.txt
    # ELSE, WRITE the number to odd.txt
 # Close both text files

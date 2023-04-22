@@ -18,6 +18,8 @@ print("")
 with open("numbers.txt", "r") as file:
     numbers = file.readlines()
 # Create two empty text files; even.txt and odd.txt
+even_file = open("even_file.txt", "w")
+odd_file = open("odd_file.txt", "w")
 # FOR each number in numbers.txt
 # Close both text files
 # Print "Completed!"

@@ -24,6 +24,8 @@ odd_file = open("odd_file.txt", "w")
 for number in numbers:
     number = int(number.strip())
    # IF the number is even, WRITE the number to even.txt
+    if number % 2 == 0:
+        even_file.write(str(number) + "\n")
    # ELSE, WRITE the number to odd.txt
 # Close both text files
 # Print "Completed!"

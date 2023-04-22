@@ -29,13 +29,15 @@ with open("even_file.txt", "w") as even_file, open("odd_file.txt", "w") as odd_f
     else:
         odd_file.write(str(number) + "\n")
 # State that the output is in the txt files
-print("Please have time to visit the even_file.txt, if you want to look on the even numbers.")
-print("Please have time to visit the odd_file.txt, if you want to look on the odd numbers.")
-# Print "Completed!"
-print("Completed!")
-# Create Footer
-print("\033[40m\033[33mThank you for your time! \033[0m")
+print("\033[32mPlease have time to visit the even_file.txt, if you want to look on the even numbers.\033[0m")
 print("")
+print("\033[32mPlease have time to visit the odd_file.txt, if you want to look on the odd numbers.\033[0m")
+print("")
+# Print "Completed!"
+print("\033[35mCompleted!\033[0m")
+# Create Footer
+print("")
+print("\033[40m\033[33mThank you for your time! \033[0m")
 print("")
 goodbye = pyfiglet.figlet_format("Visit me again", font = "digital" )
 print (goodbye)

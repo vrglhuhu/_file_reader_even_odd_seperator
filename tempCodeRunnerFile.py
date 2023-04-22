@@ -1,0 +1,2 @@
+
+    numbers = file.readlines()

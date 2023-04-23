@@ -27,12 +27,13 @@ _Let this program seperate your even and odd numbers!_
 # _**How to run this program using IDE?**_
 - > **1st step** - You have to install any of the popular IDEs such as PyCharm, Atom, or Visual Studio Code to run this program.
 - > **2nd step** - After you have installed and opened the IDE, open the file containing the program.
-- > **3rd step** - 
-- > **4th step** - 
-- > **5th step** - 
-- > **6th step** - 
-- > **7th step** - 
-- > **8th step** - 
+- > **3rd step** - Create a new project and add a new file.
+- > **4th step** - Create a new text file named "numbers.txt".
+- > **5th step** - Enter some numbers into the "numbers.txt" file.
+- > **6th step** - Run the program by clicking the "run" button on the top of the IDE.
+- > **7th step** - Output will appear on the console tab.
+- > **8th step** - Two new text files, even_file.txt and odd_file.txt, will be created.
+- > **9th step** - Check the output in the two new text files.
 
 # _**Find me around the web**_ :earth_asia::earth_asia::earth_asia::
 _Please contact me at :envelope_with_arrow: vergelbernardchean@gmail.com or call me at :telephone_receiver: 0912-367-8985 if you have any questions._

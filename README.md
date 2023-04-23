@@ -7,7 +7,7 @@ _I am Chean Bernard V. Vergel.  I am 18 years old and currently I am a first ye
 _Let this program seperate your even and odd numbers!_
 
 # _**Introduction**_
-
+> Welcome to my space! This program will help you to separate the even numbers and odd numbers from the numbers.txt file. It will create two text files, even_file.txt and odd_file.txt, and will write the even and odd numbers to the respective files. After that, it will print the numbers of even and odd numbers in the console. Finally, it will print "Completed!" in the console.
 
 # _**Features**_
 - > Header and Footer with Pyfiglet

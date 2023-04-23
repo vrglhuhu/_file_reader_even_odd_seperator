@@ -10,7 +10,17 @@ _Let this program seperate your even and odd numbers!_
 
 
 # _**Features**_
-
+- > Header and Footer with Pyfiglet
+- > Welcome message
+- > Input user's name
+- > Read "numbers.txt" file
+- > Create two empty text files; even.txt and odd.txt
+- > Read even and odd numbers from the "numbers.txt" file
+- > Count the even and odd numbers
+- > Output even and odd numbers in the even_file.txt and odd_file.txt
+- > Display output message
+- > Goodbye message
+- > Footer
 
 # _**How to run this program?**_
 

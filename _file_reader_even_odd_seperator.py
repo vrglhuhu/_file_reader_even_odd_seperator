@@ -45,7 +45,7 @@ with open("even_file.txt", "r") as even_file, open("odd_file.txt", "r") as odd_f
     even_count = len(even_file.readlines())
     odd_count = len(odd_file.readlines())
 
-print(f"\033[32mHi", name_user + "! This program found {even_count} even numbers and {odd_count} odd numbers!\033[0m")
+print("\033[32mHi " + name_user + "! This program found " + str(even_count) + " even numbers and " + str(odd_count) + " odd numbers!\033[0m")
 print("")
 
 # State that the output is in the txt files
